@@ -17,7 +17,7 @@
 
 <div class="navbar bg-violet-400 min-h-16 px-4">
     <div class="navbar-start">
-        <!-- Menu Mobile (Hambúrguer) -->
+        <!-- Menu Mobile Hambúrguer -->
         <div class="dropdown md:hidden">
             <div tabindex="0" role="button" class="btn btn-ghost text-white">
                 <span class="material-symbols-outlined">menu</span>
