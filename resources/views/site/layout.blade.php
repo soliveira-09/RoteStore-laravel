@@ -61,7 +61,7 @@
     </div>
     
     <div class="navbar-end md:navbar-center">
-        <a href="{{ route('site.index') }}" class="text-xl md:text-2xl font-bold tracking-wide text-white">CursoLaravel</a>
+        <a href="{{ route('site.index') }}" class="text-xl md:text-2xl font-bold tracking-wide text-white">RoteStore</a>
     </div>
 </div>
 
