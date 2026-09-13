@@ -2,10 +2,10 @@
 
 Uma plataforma de e-commerce inspirada em sites de venda, desenvolvida para simular uma experiência de navegação, listagem e gerenciamento de carrinho de compras. O sistema utiliza Seeders e Factories do Laravel para gerar um catálogo aleatório de produtos a cada execução.
 
+![Demonstração da RoteStore](assets/preview.gif)
+
+
 ---
-![GitHub repo size](https://shields.io)
-![Laravel Version](https://shields.io)
-![PHP Version](https://shields.io)
 
 ## Tecnologias Utilizadas
 
