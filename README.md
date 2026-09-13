@@ -2,7 +2,7 @@
 
 Uma plataforma de e-commerce inspirada em sites de venda, desenvolvida para simular uma experiência de navegação, listagem e gerenciamento de carrinho de compras. O sistema utiliza Seeders e Factories do Laravel para gerar um catálogo aleatório de produtos a cada execução.
 
-![Demonstração da RoteStore](assets/screenshot.png)
+![Demonstração da RoteStore](public/assets/screenshot.png)
 
 
 ---
