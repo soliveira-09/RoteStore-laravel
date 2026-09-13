@@ -36,8 +36,8 @@ Uma plataforma de e-commerce inspirada em sites de venda, desenvolvida para simu
 
 1. **Clonar o repositório**
    ```bash
-   git clone https://github.com/soliveira-09/siteteste-laravel.git
-   cd siteteste-laravel
+   git clone https://github.com/soliveira-09/RoteStore-laravel.git
+   cd RoteStore-laravel
    ```
 
 2. **Instalar as dependências do PHP**
