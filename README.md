@@ -3,13 +3,16 @@
 Uma plataforma de e-commerce inspirada em sites de venda, desenvolvida para simular uma experiência de navegação, listagem e gerenciamento de carrinho de compras. O sistema utiliza Seeders e Factories do Laravel para gerar um catálogo aleatório de produtos a cada execução.
 
 ---
+![GitHub repo size](https://shields.io)
+![Laravel Version](https://shields.io)
+![PHP Version](https://shields.io)
 
 ## Tecnologias Utilizadas
 
 * **Backend:** [Laravel](https://laravel.com/)
 * **Database:** MySQL / HeidiSQL
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **UI Components:** [daisyUI](https://daisyui.com/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) (via CDN)
+* **UI Components:** [daisyUI](https://daisyui.com/) (via CDN)
 
 ---
 
@@ -22,12 +25,11 @@ Uma plataforma de e-commerce inspirada em sites de venda, desenvolvida para simu
 
 ---
 
-## Como rodar o projeto localmente
+## Como rodar o projeto
 
 ### Pré-requisitos
 * PHP (v8.2 ou superior)
 * Composer
-* Node.js & NPM
 * MySQL ou HeidiSQL
 
 ---
@@ -45,28 +47,32 @@ Uma plataforma de e-commerce inspirada em sites de venda, desenvolvida para simu
     composer install
     ```
 
-3. **Instalar e compilar as dependências de Frontend (Tailwind + daisyUI)**
-    ```
-    npm install
-    npm run build
-    ```
-
-4. **Configurar as Variáveis de Ambiente**
+3. **Configurar as Variáveis de Ambiente**
     ```
     cp .env.example .env
     ```
+    > ⚠️ Abra o arquivo .env e configure o `DB_DATABASE`, `DB_USERNAME` e `DB_PASSWORD`, além de criar o banco
+    antes dos próximos passos
 
-5. **Gerar a chave da aplicação**
+4. **Gerar a chave da aplicação**
     ```
     php artisan key:generate
     ```
 
-6. **Rodar as Migrations e Popular o Banco (Seeders)**
+5. **Rodar as Migrations e Popular o Banco (Seeders)**
     ```
     php artisan migrate --seed
     ```
 
-7. **Iniciar o servidor de desenvolvimento**
+6. **Iniciar o servidor de desenvolvimento**
     ```
     php artisan serve
     ```
+
+---
+
+### Melhorias futuras
+
+* **Funcionalidades nos Botões + e - no carrinho**
+* **Implementar Autenticação de Usuários**
+* **Criar Painel para Cadastro de Produtos**
